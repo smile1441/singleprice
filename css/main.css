@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.hero {
+  padding: 1.5em;
+}
+.hero h1 {
+  color: var(--Cyan);
+  font-size: 1.5rem;
+}
+.hero h2 {
+  color: var(--Bright-Yellow);
+  margin: 0.8em 0;
+  font-size: 1rem;
+}
+.hero p {
+  color: var(--Grayish-Blue);
+  font-weight: 700;
+}
+
+.price-about {
+  background-color: var(--Cyan);
+}
+.price-about .left-col {
+  padding: 1.5em;
+}
+.price-about .left-col h2 {
+  color: white;
+}
+.price-about .price-month {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin: 0.5em 0;
+}
+.price-about .price-month h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+.price-about .price-month p {
+  color: rgb(206, 206, 206);
+  font-weight: 400;
+}
+.price-about h3 {
+  color: rgb(240, 240, 240);
+}
+.price-about button {
+  font-family: "Karla", sans-serif;
+  padding: 0.5em 2em;
+  text-align: center;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1.1rem;
+  color: white;
+  background-color: var(--Bright-Yellow);
+  width: 100%;
+  margin-top: 1em;
+}
+.price-about .right-col {
+  background-color: hsl(180deg, 42%, 57%);
+  padding: 1.5em;
+}
+.price-about .right-col h2 {
+  color: white;
+  margin-bottom: 1em;
+}
+.price-about .right-col ul {
+  list-style: none;
+  line-height: 1.7em;
+}
+.price-about .right-col ul li {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
